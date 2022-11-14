@@ -1,0 +1,64 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    /* font family: 'Quicksand', sans-serif; */
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #c4bbabc5;
+   /* background-image: url("/img3.jpg");*/
+   
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+body::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    /*
+    background: -webkit-gradient(linear, left top, left bottom, from(#3d1ee9), to(#0e9e4f)); 
+    background: linear-gradient(#e91e63, #ffc107);
+    -webkit-clip-path: circle(38% at 20% 5%);
+    clip-path: circle(38% at 20% 5%);
+    */
+}
+
+body::after
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    /*
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#0a9755)); 
+    background: linear-gradient(#2806be, #41bd11);
+    */
+    /*
+    -webkit-clip-path: circle(38% at 80% 100%);
+    clip-path: circle(38% at 80% 100%);
+    */
+}
